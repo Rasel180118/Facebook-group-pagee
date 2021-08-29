@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/*Main CSS*/
+.header {
+    background: white;
+    padding-top: 17px;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.h-l-left.left {
+    margin-left: 20px;
+    width: 15%;
+}
+.h-l-left.left a img {
+    border-radius: 50%;
+    width: 47px;
+}
+.h-l-right.left {
+    width: 80%;
+    margin-left: -21px;
+    margin-top: 3px;
+}
+.h-left form {
+    float: left;
+    padding-left: 26px;
+}
+
+.h-left input.form-control {
+    padding: 10px 39px 10px 50px;
+    font-size: 17px;
+    border-radius: 23px;
+    background: #F0F2F5;
+    border: none;
+    position: relative;
+}
+
+.h-left span {
+    position: absolute;
+    top: 8px;
+    left: 117px;
+    color: #b9acac;
+    font-size: 20px;
+}
+.menu ul {
+    list-style: none;
+    text-align: center;
+    margin-left: -182px;
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 66px;
+}
+.menu ul li a {
+    color: gray;
+}
+.r-menu ul {
+    list-style: none;
+    margin-top: 9px;
+}
+.r-menu ul li {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 24px;
+}
+.r-menu ul li a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+}
+.r-menu ul li a img {
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.r-menu ul li a p {
+    font-size: 18px;
+    display: inline-block;
+}
+/*content*/
+.content {
+    margin-top: 91px;
+}
+.con-1 p {
+    background: blue;
+    padding: 13px 7px;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 0 5px 5px;
+}
+.con-1 p a {
+    color: white;
+    font-weight: 500;
+}
+.left-2.left {
+    width: 50%;
+}
+.right-2.right {
+    width: 50%;
+}
+.left-2.left h2 {
+    font-weight: 600;
+}
+.left-2.left span {
+    color: gray;
+}
+.right-2.right ul {
+    list-style: none;
+    text-align: right;
+}
+.right-2.right ul li {
+    display: inline-block;
+}
+.right-2.right ul li a img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+li.btn {
+    font-size: 18px;
+    background: blue;
+    color: white;
+    border-radius: 3px;
+    margin-left: 36px;
+}
+li.btn a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+.c-3-left.left {
+    width: 80%;
+}
+.c-3-right.right {
+    width: 20%;
+}
+.c-3-left.left ul {
+    list-style: none;
+}
+.c-3-left.left ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.c-3-left.left ul li a {
+    color: darkslategray;
+    text-decoration: none;
+    padding: 6px 2px;
+    border-radius: 8px;
+    transition: .3s;
+}
+.c-3-left.left ul li a:hover{
+    background: darkgray;
+}
+.c-3-right.right ul {
+    list-style: none;
+    text-align: right;
+}
+.c-3-right.right ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 39px;
+    position: relative;
+}
+.c-3-right.right ul li a {
+    display: inline-block;
+    background: darkgray;
+    color: black;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+.c-3-right.right ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 39px;
+    position: relative;
+}
+.c-3-right.right ul li a {
+    display: inline-block;
+    background: darkgray;
+    color: black;
+    padding: 3px 9px;
+    border-radius: 5px;
+}
+li.c-3-btn a span {
+    position: absolute;
+    top: -9px;
+    right: 2px;
+    background: darkgray;
+    padding: 0px 10px 6px 10px;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+/*content bottom*/
+.cb1-left.left {
+    width: 15%;
+}
+.cb1-right.left {
+    width: 80%;
+    margin-top: 3px;
+}
+.cb1-left.left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+form input {
+    display: inline-block;
+    padding: 8px;
+    width: 382px;
+    border: 1px solid darkgray;
+    border-radius: 27px;
+}
+.cb1-bottom {
+    margin-top: 26px;
+}
+.cb1-first {
+    display: inline-block;
+}
+.cb1-second {
+    display: inline-block;
+    margin-left: 69px;
+}
+.cb1-third {
+    display: inline-block;
+    margin-left: 73px;
+}
+.cb1-first span {
+    display: inline-block;
+    font-size: 20px;
+}
+.cb1-second span {
+    display: inline-block;
+    font-size: 20px;
+}
+.cb1-third span {
+    display: inline-block;
+    font-size: 20px;
+}
+.cb1-first p {
+    display: inline-block;
+    font-size: 15px;
+}
+.cb1-second p {
+    display: inline-block;
+    font-size: 15px;
+}
+.cb1-third p {
+    display: inline-block;
+    font-size: 15px;
+}
+.content-bottom {
+    background: whitesmoke;
+}
+.cb-1 {
+    background: white;
+    padding: 23px 3px;
+    margin-top: 23px;
+    border-radius: 4px;
+}
+.cb1-bottom {
+    margin-top: 26px;
+}
+.cb-right1 {
+    background: white;
+    margin-top: 22px;
+    padding-left: 8px;
+    border-radius: 5px;
+    padding-bottom: 6px;
+}
+.r-menu1 ul {
+    list-style: none;
+}
+.cb-symbol.left {
+    width: 10%;
+    font-size: 20px;
+}
+.r-menu1 ul li {
+    margin-bottom: 10px;
+}
+.cb-text.left {
+    width: 90%;
+}
+.cb-right1 h4 {
+    font-size: 22px;
+    padding-top: 17px;
+}
+.cb-right2 {
+    background: white;
+    padding-left: 10px;
+    padding-top: 17px;
+    border-radius: 5px;
+    padding-bottom: 6px;
+    margin-top: 22px;
+}
+.cb-right2 h5 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.r-menu2 ul {
+    list-style: none;
+}
+.r-menu2 ul li {
+    display: inline-block;
+}
+.r-menu2 ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: darkgray;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 6px;
+}
+.cb-right3 {
+    background: white;
+    margin-top: 22px;
+    padding-left: 9px;
+    padding-top: 15px;
+    border-radius: 5px;
+    padding-bottom: 6px;
+}
+.cb-right3 h5 {
+    font-size: 23px;
+    margin-bottom: 28px;
+}
+.r-menu3 ul {
+    list-style: none;
+}
+.r-menu3 ul li {
+    display: inline-block;
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
+.r-menu3 ul li a img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.r-btn3 {
+    background: gray;
+    text-align: center;
+    border-radius: 4px;
+}
+.r-btn3 a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.cb-2 {
+    margin-top: 19px;
+}
+.cb-2-top.clear {
+    padding-top: 8px;
+    font-size: 20px;
+    color: gray;
+    padding-left: 6px;
+}
+.top-2-left.right {
+    padding-right: 7px;
+}
+.j-img.left img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.j-title.left p {
+    font-size: 15px;
+}
+.j-title.left p a {
+    color: black;
+    font-weight: 700;
+}
+.j-icon {
+    text-align: right;
+    font-size: 20px;
+}
+.j-icon a {
+    color: black;
+    display: inline-block;
+    padding: 0px 6px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.j-icon a:hover{
+    background: gray;
+}
+.j-contents span {
+    font-size: 20px;
+    font-weight: 500;
+}
+.icon-left ul {
+    display: inline-block;
+    list-style: none;
+    margin-left: 5px;
+}
+.icon-left ul li {
+    display: inline-block;
+    font-size: 20px;
+}
+.icon-left p {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.j-t-right {
+    text-align: right;
+    padding-right: 6px;
+    font-size: 20px;
+}
+.like{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.like a{
+    text-decoration: none;
+}
+.like span {
+    display: inline-block;
+}
+.like p {
+    display: inline-block;
+}
+.comments {
+    font-size: 20px;
+}
+.comments a{
+    text-decoration: none;
+}
+.comments span {
+    display: inline-block;
+}
+.comments p {
+    display: inline-block;
+}
+.share {
+    font-size: 20px;
+    text-align: right;
+    margin-right: 8px;
+}
+.share a{
+    text-decoration: none;
+}
+.share span {
+    display: inline-block;
+}
+.share p {
+    display: inline-block;
+}
+.v-comments span {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 8px;
+    color: gray;
+}
+.v-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 34px;
+    margin-top: 20px;
+}
+.v-head {
+    margin-top: 20px;
+}
+.v-head a {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+.v-head span {
+    font-size: 16px;
+}
+.j-all {
+    margin-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    margin-top: -35px;
+}
+.j {
+    background: white;
+    border-radius: 6px;
+}
+.j-1 {
+    background: white;
+    border-radius: 6px;
+    margin-top: 64px;
+}
+.j-2 {
+    background: white;
+    border-radius: 6px;
+    margin-top: 64px;
+}
